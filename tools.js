@@ -44,7 +44,7 @@ const fetchTool = new Tool('fetch', async (url) => {
                  .trim(); 
 });
 
-const fileWriteTool = new Tool('fileWrite', async ({ filename, content }) => {
+const fileWriteTool = new Tool('writeFile', async ({ filename, content }) => {
     console.log(`[WRITE FILE] Writing to file: ${filename}`);
     console.log(`[WRITE FILE] Content: ${content.substring(0, 100)}...`); // Log first 100 characters
 

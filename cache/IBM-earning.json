@@ -1,0 +1,29 @@
+[
+  {
+    "fiscalDateEnding": "2025-09-30",
+    "reportedDate": "2025-10-22",
+    "reportedEPS": "2.65",
+    "estimatedEPS": "2.45",
+    "surprise": "0.2",
+    "surprisePercentage": "8.1633",
+    "reportTime": "post-market"
+  },
+  {
+    "fiscalDateEnding": "2025-06-30",
+    "reportedDate": "2025-07-23",
+    "reportedEPS": "2.8",
+    "estimatedEPS": "2.65",
+    "surprise": "0.15",
+    "surprisePercentage": "5.6604",
+    "reportTime": "post-market"
+  },
+  {
+    "fiscalDateEnding": "2025-03-31",
+    "reportedDate": "2025-04-23",
+    "reportedEPS": "1.6",
+    "estimatedEPS": "1.43",
+    "surprise": "0.17",
+    "surprisePercentage": "11.8881",
+    "reportTime": "post-market"
+  }
+]

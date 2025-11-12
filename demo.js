@@ -19,7 +19,7 @@ const tasks = [
     new Task('Analyse ce contenu et extrait les principales actualités et informations.', 'lmStudio'), // Analyze and summarize
     new Task('Extrais les infos pertinentes du contenu afin de lister les actualités.', 'lmStudio'), // Extract key facts
     new Task('Rédige un article de blog sur ce contenu. Tu dois parler des actualités. Formate en markdown et optimise pour le SEO. Ton texte sera directement injecté dans WordPress', 'lmStudio'), // Write SEO article
-    new Task({ filename: 'article.md', content: '' }, 'fileWrite') // Write to file
+    new Task({ filename: 'article.md', content: '' }, 'writeFile') // Write to file
 ];
 
 // CREW
@@ -44,7 +44,7 @@ class Crew {
                 tasks[i].input = lastResult;
             }
 
-            if (toolName === 'fileWrite') {
+            if (toolName === 'writeFile') {
                 tasks[i].input.content = lastResult;
             }
             lastResult = await agent.perform(tasks[i]);
